@@ -13,5 +13,10 @@ public class KController {
     public String callKomponenta(){
         return k.getKomponenta();
     }
+    
+     @RequestMapping(value = "/lala")
+    public String callKomponenta2(){
+        return k.getKomponenta();
+    }
 
 }
