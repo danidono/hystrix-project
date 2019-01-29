@@ -19,4 +19,9 @@ public class KController {
         return "lala";
     }
 
+    @RequestMapping(value = "/krakra")
+    public String vranacall(){
+        return "krakra";
+    }
+
 }
