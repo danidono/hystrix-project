@@ -13,6 +13,11 @@ public class KController {
     public String callKomponenta(){
         return k.getKomponenta();
     }
+    
+     @RequestMapping(value = "/commitnew1")
+    public String com1(){
+        return "commitnew1";
+    }
 
     @RequestMapping(value = "/commitmaster1")
     public String com(){
