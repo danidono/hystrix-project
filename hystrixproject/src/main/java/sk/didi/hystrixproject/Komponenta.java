@@ -16,7 +16,8 @@ import java.util.stream.Collectors;
 @Slf4j
 public class Komponenta{
 
-
+    //Just a comment added for git tutorial purposes
+    
     @Value("${komponenta.properties.value:lala, la, java}")
     private String value;
 
