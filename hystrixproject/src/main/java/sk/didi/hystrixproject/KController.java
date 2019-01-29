@@ -13,10 +13,15 @@ public class KController {
     public String callKomponenta(){
         return k.getKomponenta();
     }
-    
-     @RequestMapping(value = "/huhu")
-    public String callKomponenta2(){
-        return "huhu";
+
+    @RequestMapping(value = "/lala")
+    public String dontCall(){
+        return "lala";
+    }
+
+    @RequestMapping(value = "/krakra")
+    public String vranacall(){
+        return "krakra";
     }
 
     @RequestMapping(value = "/vivi")
