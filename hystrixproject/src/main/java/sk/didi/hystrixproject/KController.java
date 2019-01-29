@@ -14,19 +14,9 @@ public class KController {
         return k.getKomponenta();
     }
 
-    @RequestMapping(value = "/lala")
-    public String dontCall(){
-        return "lala";
-    }
-
-    @RequestMapping(value = "/krakra")
-    public String vranacall(){
-        return "krakra";
-    }
-
-    @RequestMapping(value = "/vivi")
-    public String callvivi(){
-        return "vivi";
+    @RequestMapping(value = "/commitmaster1")
+    public String com(){
+        return "commitmaster1";
     }
 
 }
