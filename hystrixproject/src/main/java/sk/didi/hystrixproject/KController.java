@@ -13,6 +13,7 @@ public class KController {
     public String callKomponenta(){
         return k.getKomponenta();
     }
-   
+
+
 
 }
