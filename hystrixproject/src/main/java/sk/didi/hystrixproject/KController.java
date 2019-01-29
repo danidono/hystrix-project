@@ -19,4 +19,9 @@ public class KController {
         return "huhu";
     }
 
+    @RequestMapping(value = "/vivi")
+    public String callvivi(){
+        return "vivi";
+    }
+
 }
